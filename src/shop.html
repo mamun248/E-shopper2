@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EShopper - Bootstrap Shop Template</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/eshopper.png" type="image/x-icon">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--top of navbar start-->
+    <div class="container-fluid bg-secondary">
+
+        <div class="row  py-2 ">
+            <div class="col-lg-6 d-none d-lg-block  ">
+                <div class="d-inline  align-items-center">
+                    <a class="text-dark m-0" href="#">FAQs</a>
+                    <span class="text-muted px-1 ">|</span>
+                    <a class="text-dark m-0" href="#">Help</a>
+                    <span class="text-muted px-1">|</span>
+                    <a class="text-dark m-0" href="#">Support</a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right ">
+                <div class=" d-inline text-items-center">
+                    <a class="text-dark  px-2" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="text-dark  px-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="text-dark  px-2" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a class="text-dark  px-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="text-dark pl-2" href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row align-items-center py-3">
+
+            <div class="col-lg-3 font-weight-bold">
+                <a class="text-decoration-none d-none d-lg-block " href="#">
+
+                    <h1 class="m-0 display-5 font-weight-bold">
+                        <span class="text-primary border  px-3 mr-1">E</span>Shopper
+                    </h1>
+
+                </a>
+            </div>
+            <div class="col-lg-6 col-6">
+                <form action="">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Search for products">
+                        <div class="input-group-append">
+                            <a class="btn border input-group-text" href="#"><i class="fa fa-search text-primary"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3 col-6 text-right">
+                <a href="#" class="btn border"><i class="fa fa-heart text-primary"></i>
+                    <span class="badge">0</span></a>
+                <a href="#" class="btn border"><i class="fa fa-shopping-cart text-primary"></i>
+                    <span class="badge">0</span></a>
+            </div>
+
+        </div>
+    </div>
+    <!--top of navbar end-->
+    <!--dropdown with navbaar & carousel start-->
+    <div class="container-fluid border-top ">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class=" d-none d-lg-block">
+                    <button class="btn btn-block bg-primary py-3 px-4 text-left " data-toggle="collapse" data-target="#dropdown1">
+                        Categories
+                        <i class="fa fa-angle-down float-right"></i>
+                    </button>
+                    <nav class=" position-absolute  bg-light navbar nav-hero " style="width: calc(100% - 30px); z-index: 1; ">
+                        <div class=" collapse navbar-nav w-100" id="dropdown1">
+
+                            <li class="nav-item w-100 dropdown px-4 show ">
+                                <a class="nav-link" data-toggle="dropdown" role="button" href="#">Dresses
+                                    <i class="fa fa-angle-down float-right"></i>
+                                </a>
+                                <div class="dropdown-menu w-100 position-absolute  bg-secondary" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Men's Dresses</a>
+                                    <a class="dropdown-item" href="#">Women's Dresses</a>
+                                    <a class="dropdown-item" href="#">Baby's Dresses</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Shirts</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Jeans</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Swimwear</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Sleepwear</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Sportswear</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Jumpsuits</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Blazers</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">Jackets</a></li>
+                            <li class="nav-item px-4"><a class="nav-link" href="#">shoes</a></li>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-light navbar-expand-lg  justify-content-between  py-2 pt-1 px-0">
+                    <a class="text-decoration-none d-block d-lg-none" href="#">
+                        <h1 class="font-weight-bold mt-3 display-5">
+                            <span class="text-primary border px-3 mr-1">E</span>Shopper
+                        </h1>
+                    </a>
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav p-0">
+                            <li class="nav-item"><a class="nav-link py-1 " href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link py-1 active" href="shop.html">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link py-1" href="detail.html">Shop Detail</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle py-1" data-toggle="dropdown" href="#">Pages</a>
+                                <div class="dropdown-menu">
+                                   <a class="dropdown-item" href="cart.html">Shopping cart</a>
+                                    <a class="dropdown-item" href="checkout.html">Checkout</a>
+                                    
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link py-1" href="Contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="navbar-nav p-0 ml-auto">
+                            <li class="nav-item"><a class="nav-link py-1" href="">Login</a></li>
+                            <li class="nav-item"><a class="nav-link py-1" href="#">Register</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!--dropdown with navbaar & carousel end-->
+
+    <!--our shop start-->
+    <section class="our-shop-section">
+        <div class="container-fluid bg-secondary py-5">
+            <div class=" d-flex flex-column justify-content-center align-items-center py-5 my-1">
+                <h1 class="mb-3 font-weight-semi-bold ">OUR SHOP</h1>
+                <div class="d-flex">
+                    <p class=""><a class="active" href="#">Home</a></p>
+
+
+                    <p class="px-2"> - </p>
+                    <p> Shop</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--our shop end-->
+
+    <!--price section start-->
+    <section class="price-section">
+        <div class="container-fluid py-5 mt-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h5 class="font-weight-semi-bold pb-3">Filter by price</h5>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="check1" class="" type="checkbox">
+                            <label for="check1" class=" text-muted ">All Price</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">1000</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="no1" class="" type="checkbox">
+                            <label for="no1" class=" text-muted ">$0 - $100</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">150</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="no2" class="" type="checkbox">
+                            <label for="no2" class=" text-muted ">$100 - $200</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">295</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="no3" class="" type="checkbox">
+                            <label for="no3" class=" text-muted ">$200 - $300</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">246</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="no4" class="" type="checkbox">
+                            <label for="no4" class=" text-muted ">$300 - $400</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">145</div>
+                    </div>
+                    <div class="pb-3 border-bottom border-secondary d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="no5" class="" type="checkbox">
+                            <label for="no5" class=" text-muted ">$400 - $500</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">168</div>
+                    </div>
+                    <h5 class="font-weight-semi-bold py-4">Filter by color</h5>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="noo1" class="" type="checkbox">
+                            <label for="noo1" class=" text-muted ">All Color</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">1000</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="noo2" class="" type="checkbox">
+                            <label for="noo2" class=" text-muted ">Black</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">150</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="noo3" class="" type="checkbox">
+                            <label for="noo3" class=" text-muted ">White</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">295</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="noo4" class="" type="checkbox">
+                            <label for="noo4" class=" text-muted ">Red</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">246</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="noo5" class="" type="checkbox">
+                            <label for="noo5" class=" text-muted ">Blue</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">145</div>
+                    </div>
+                    <div class="pb-3 border-bottom border-secondary d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="noo6" class="" type="checkbox">
+                            <label for="noo6" class=" text-muted ">Green</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">168</div>
+                    </div>
+                    <h5 class="font-weight-semi-bold py-4">Filter by size</h5>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="god1" class="" type="checkbox">
+                            <label for="god1" class=" text-muted ">All Size</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">1000</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="good2" class="" type="checkbox">
+                            <label for="good2" class=" text-muted ">XS</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">150</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="good3" class="" type="checkbox">
+                            <label for="good3" class=" text-muted ">S</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">295</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="good4" class="" type="checkbox">
+                            <label for="good4" class=" text-muted ">M</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">246</div>
+                    </div>
+                    <div class="pb-2 d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="good5" class="" type="checkbox">
+                            <label for="good5" class=" text-muted ">L</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">145</div>
+                    </div>
+                    <div class="pb-3 border-bottom border-secondary d-flex flex-row justify-content-between align-items-center">
+                        <div class="">
+                            <input id="good6" class="" type="checkbox">
+                            <label for="good6" class=" text-muted ">XL</label>
+                        </div>
+                        <div class="border badge font-weight-normal text-muted p-1">168</div>
+                    </div>
+                </div>
+                <!--price section end-->
+                <!--prodect section start-->
+                <div class="col-lg-9">
+                    <div class="row   ">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between pb-4 ml-4">
+                                <form action class="">
+                                    <div class="input-group ">
+                                        <input class="form-control " placeholder="Search by name" type="text">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-transparent"><i class="text-primary fa-solid fa-magnifying-glass"></i></span>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="dropdown border border-secondary px-2 ">
+                                    <button class="btn dropdown-toggle p-1" data-bs-toggle="dropdown">
+                                        Sort by
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Latest</a>
+                                        <a class="dropdown-item" href="#">Popularity</a>
+                                        <a class="dropdown-item" href="#">Best Rating</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-2">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body border-secondary">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-2">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-2">
+                                    <div class="card">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-3">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-4.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-3">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-5.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-3">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-6.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-3">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-7.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-3">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-8.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 pb-2 pt-3">
+                                    <div class="card border-secondary">
+                                        <div class="border-bottom">
+                                            <div class="inner">
+                                                <img class="img-fluid" src="img/product-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="text-center">Colorful Stylish Shirt</h6>
+                                            <div class="d-flex justify-content-center">
+                                                <p class="mb-0">$123.00</p>
+                                                <del class="text-muted ml-3">$123.00</del>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer border-secondary">
+                                            <div class="font d-flex justify-content-between">
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-eye text-primary "></i> View Detail</a>
+
+                                                <a class="btn btn-sm p-0" href="#"><i class="fa-solid fa-cart-shopping text-primary"></i> Add To Cart</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="d-flex justify-content-center py-4">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-angles-left fa-beat fa-xs"></i></a></li>
+                                    <li class="page-item active"><a class="page-link " href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#"><i class="fa-solid fa-angles-right fa-beat fa-xs"></i></a></li>
+                                </ul>
+                            </nav>
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!--prodect section end-->
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!--subscrib section start-->
+    <div class="container-fluid bg-secondary pt-5 pb-4  mt-4">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12">
+                <div>
+                    <h1 class="m-0 display-5 font-weight-bold">
+                        <span class="text-primary border  px-3 mr-1">E</span>Shopper
+                    </h1>
+                    <p class="my-4">Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
+                    <p class="my-2"><i class="fa-solid fa-location-dot text-primary mr-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa-solid fa-envelope text-primary mr-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa-solid fa-phone text-primary mr-3"></i>+012 345 67890</p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column ">
+                            <h5 class="font-weight-bold pb-4">Quick Links</h5>
+                            <a class="py-1" href="index.html"><i class="fa-solid fa-angle-right pr-1 "></i> Home</a>
+                            <a class="py-1" href="shop.html"><i class="fa-solid fa-angle-right pr-1 "></i> Our Shop</a>
+                            <a class="py-1" href="detail.html"><i class="fa-solid fa-angle-right pr-1 "></i> Shop Detail</a>
+                            <a class="py-1" href="cart.html"><i class="fa-solid fa-angle-right pr-1 "></i> Shopping Cart</a>
+                            <a class="py-1" href="checkout.html"><i class="fa-solid fa-angle-right pr-1 "></i> Checkout</a>
+                            <a class="py-1" href="contact.html"><i class="fa-solid fa-angle-right pr-1 "></i> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column ">
+                            <h5 class="font-weight-bold pb-4">Quick Links</h5>
+                            <a class="py-1" href="index.html"><i class="fa-solid fa-angle-right pr-1 "></i> Home</a>
+                            <a class="py-1" href="shop.html"><i class="fa-solid fa-angle-right pr-1 "></i> Our Shop</a>
+                            <a class="py-1" href="detail.html"><i class="fa-solid fa-angle-right pr-1 "></i> Shop Detail</a>
+                            <a class="py-1" href="cart.html"><i class="fa-solid fa-angle-right pr-1 "></i> Shopping Cart</a>
+                            <a class="py-1" href="checkout.html"><i class="fa-solid fa-angle-right pr-1 "></i> Checkout</a>
+                            <a class="py-1" href="contact.html"><i class="fa-solid fa-angle-right pr-1 "></i> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h5 class="font-weight-bold pb-4">Newsletter</h5>
+                        <input class="form-control my-3 p-4 border-white" type="text" placeholder="Your Name">
+                        <input class="form-control my-3 p-4 border-white" type="email" placeholder="Your Email">
+                        <button class="btn btn-primary btn-block p-3">Subscrib Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-hr">
+
+        <div>
+            <div class="row pt-3">
+                <div class="col-md-6 text-lg-left text-center">
+                    <p class=""> &copy; <a class="text-dark font-weight-bold" href="#"> Your Site Name</a> . All Rights Reserved. Designed by <a class="text-dark font-weight-bold" href="#"> HTML Codex </a>
+                        <br>
+                        Distributed By <a class="text-primary font-weight-bold" href="#"> ThemeWagon</a>
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-right text-center">
+                    <img class="img-fluid  " src="img/payments.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--subscrib section end-->
+     <!-- back to top-->
+     <a class="btn btn-primary back-to-top" href="#">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+    <!-- JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
